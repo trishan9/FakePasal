@@ -1,0 +1,88 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Over Size Half Shirt",
+            "description": "Size : L, XL, XXL",
+            "price": 1850,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/f9555344e21da994eb68c1a49633cd0e.jpeg?w=1000&h=1000"
+        },
+        {
+            "id": 2,
+            "title": "Plain Half Sweater ' Black '",
+            "description": "Size : L",
+            "price": 1850,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/c31b5288e6b2b171b85729060fce016b.jpeg?w=1000&h=1000"
+        },
+        {
+            "id": 3,
+            "title": "Batch Printed Half Sweater ' Brown '",
+            "description": "Size : L, XL",
+            "price": 1750,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/c7ee0170d0967fbf587fcc0a715b3cb9.jpeg?w=1000&h=1000"
+        },
+        {
+            "id": 4,
+            "title": "Nike Mid 77 Blazer ' Have A Good Game '",
+            "description": "Size :  42, 43",
+            "price": 6000,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/41d0d78c05bf66eefcb09482794d72e3.jpeg?w=1000&h=1000"
+        },
+        {
+            "id": 5,
+            "title": "Nike Sb Dunk Low ' Habibi '",
+            "description": "Size : 39, 41, 42",
+            "price": 7000,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/6aca4e70ce08816f4909054de350d19d.jpg?w=1000&h=1000"
+        },
+        {
+            "id": 6,
+            "title": "Air Jordan 3 Retro ' Cardinal Red '",
+            "description": "Size :  41, 42",
+            "price": 6500,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/b70959c5bdab1cedc307637b74f48913.jpg?w=1000&h=1000"
+        },
+        {
+            "id": 7,
+            "title": "9009 Cactus Jack Multipocket Non-fleece Hoodie ' Black '",
+            "description": "Size : M, L",
+            "price": 3250,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/283e7a42ff97d810572f664dc55b88db.jpeg?w=1000&h=1000"
+        },
+        {
+            "id": 8,
+            "title": "Basic Plain Over Size Jeans Jacket ' Light Blue '",
+            "description": "Size : XL, XXL",
+            "price": 2000,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/0e08bcd3b106b7b17339144f43f8ca7d.jpeg?w=1000&h=1000"
+        },
+        {
+            "id": 9,
+            "title": "Shining Lining Straight Baggy Track ' Dark Grey '",
+            "description": "Size : M, L, XL, XXL Material : Lycra, Silk Style : Straight Design : Lining Season : Summer, Spring",
+            "price": 1750,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/59e88247cce37f7406c464664f5d59d8.jpeg?w=1000&h=1000"
+        },
+        {
+            "id": 10,
+            "title": "Air Jordan 4 Retro ' Paris Saint Germain '",
+            "description": "Size : 42 , 44, 45",
+            "price": 6500,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/271962e8824d517258dbcb8b532db8f8.jpg?w=1000&h=1000"
+        },
+        {
+            "id": 11,
+            "title": "New Balance 550 ' Aime Leon Dore ' - Red",
+            "description": "Size : 40, 41",
+            "price": 7000,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/8b8b9e2df975f5ee7600a12e13c5f66d.jpg?w=1000&h=1000"
+        },
+        {
+            "id": 12,
+            "title": "New Balance 550 ' White University Blue '",
+            "description": "Size : 39.5",
+            "price": 7000,
+            "img": "https://i0.wp.com/instylenepal.com/assets/modules/instylenepal.com/product_photo/thumbnails/65eeca1c3b0fe5fb8842eddb20f25e87.JPG?w=1000&h=1000"
+        }
+    ]
+}
