@@ -1,7 +1,7 @@
 import { For, Show, createResource } from "solid-js";
+import { A } from "@solidjs/router";
 import Card from "./Card";
 import { getProducts } from "../../api/getProducts";
-import { A } from "@solidjs/router";
 
 const Products = () => {
   const [products] = createResource(getProducts);
@@ -12,14 +12,17 @@ const Products = () => {
         <For each={products()}>
           {(product) => (
             <Card>
-              <img src={product.img} alt="" />
+              <img
+                src={product.img}
+                alt={product.title}
+                class="border border-gray-200"
+              />
 
               <h1 class="text-lg font-medium text-center">{product.title}</h1>
 
               <A
                 href={`/product/${product.id}`}
                 class="p-2 rounded-md bg-[#FFBD59] text-center"
-                type="button"
               >
                 View Product
               </A>
