@@ -12,9 +12,9 @@ const Cart = () => {
   };
 
   return (
-    <div class="min-w-[400px] my-8 mx-auto text-center">
+    <div class="w-full my-8 mx-auto text-center">
       <Card>
-        <h1>Shopping Cart</h1>
+        <h1 class="text-xl font-semibold my-4">Shopping Cart</h1>
 
         <For each={products}>
           {(product) => (

@@ -27,17 +27,17 @@ const ProductDetails = () => {
 
   return (
     <Show when={productDetails()} fallback={<p>Loading...</p>}>
-      <div class="flex gap-10 my-8">
+      <div class="flex flex-col md:flex-row gap-10 my-8 items-center">
         <div>
           <img
             src={productDetails().img}
             alt=""
-            class="min-w-[500px] max-w-[500px]"
+            class="md:h-96 w-full  object-contain"
           />
         </div>
 
         <div class="w-full flex flex-col gap-6 items-start">
-          <p class="text-2xl font-medium">{productDetails().title}</p>
+          <p class="text-xl sm:text-2xl font-medium">{productDetails().title}</p>
 
           <p class="font-medium">{productDetails().description}</p>
 

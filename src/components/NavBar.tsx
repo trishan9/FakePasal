@@ -22,7 +22,7 @@ const NavBar: Component = () => {
         </A>
       </div>
 
-      <img src={bannerImage} alt="Banner" class="rounded-md h-96 object-fit" />
+      <img src={bannerImage} alt="Banner" class="rounded-md h-80 sm:h-96 object-cover" />
     </nav>
   );
 };
