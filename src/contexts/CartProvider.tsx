@@ -6,8 +6,24 @@ export const CartContext = createContext();
 const CartProvider = (props: any) => {
   const [products, setProducts] = createStore([]);
 
+  const increaseQuantity = (currentProduct: any) => {
+    setProducts(
+      (product: any) => product.id == currentProduct.id,
+      "quantity",
+      (quantity: any) => quantity + 1
+    );
+  };
+
+  const decreaseQuantity = (currentProduct: any) => {
+    setProducts(
+      (product: any) => product.id == currentProduct.id,
+      "quantity",
+      (quantity: any) => quantity - 1
+    );
+  };
+
   return (
-    <CartContext.Provider value={{ products, setProducts }}>
+    <CartContext.Provider value={{ products, setProducts, increaseQuantity, decreaseQuantity }}>
       {props.children}
     </CartContext.Provider>
   );

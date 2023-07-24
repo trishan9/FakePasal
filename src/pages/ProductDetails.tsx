@@ -48,7 +48,7 @@ const ProductDetails = () => {
           <button
             onClick={addProduct}
             type="button"
-            class="p-2 rounded-md bg-[#FFBD59] text-center px-4 flex gap-3 items-center"
+            class="p-2 rounded-md bg-[#FFBD59] text-center px-4 flex gap-3 items-center hover:bg-[#d19336] ease-in-out transition-all"
           >
             <Icon path={shoppingCart} style="width: 24px; color: black" />
             Add to Cart

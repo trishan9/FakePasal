@@ -22,7 +22,7 @@ const Products = () => {
 
               <A
                 href={`/product/${product.id}`}
-                class="p-2 rounded-md bg-[#FFBD59] text-center"
+                class="p-2 rounded-md bg-[#FFBD59] text-center hover:bg-[#d19336] ease-in-out transition-all"
               >
                 View Product
               </A>
